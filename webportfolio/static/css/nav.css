@@ -1,0 +1,188 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+
+
+/*Main*/
+
+.container_own{
+		width: 1320px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 60px;
+	}
+
+
+
+/*Nav*/
+
+
+body{
+	background-color: #E3D6D6;
+}
+
+
+
+h1{
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.nav_nav{
+	margin: 50px 15px 150px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav_logo{
+	
+}
+
+.nav_logo img {
+	max-height: 400px;
+	max-width: 350px;
+}
+
+.nav_info{
+	display: flex;
+	align-items: center;
+}
+
+.twitter-logo{
+	max-width: 36px;
+	max-height: 36px;
+	margin-right: 8px;
+}
+
+.insta-logo{
+	max-width: 40px;
+	max-height: 40px;
+	margin-right: 8px;
+}
+
+.facebook-logo{
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.nav_info li{
+	margin-right: 70px;
+	font-size: 24px;
+}
+
+.nav-link {
+	text-emphasis: none;
+	color: black;
+}
+
+.logo_div{
+	display: flex;
+	align-items: center;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: 100% 1060px;
+}
+
+.nav_info li a{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 2px;
+}
+
+nav-link:hover {
+	color: black;
+}
+
+/*.last_unit{
+	margin-right: 15px;
+}*/
+
+
+
+

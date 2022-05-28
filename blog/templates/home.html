@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="intro">
+	<div class="container_own">
+		<div class="intro_container">
+			<div class="intro_left">
+				<div class="intro_title">
+					<p class="">Welcome to my portfolio site.</p>
+				</div>
+				<div class="intro_subtitle">
+					<p>Get ready to dive into the world of beauty and aesthetics.</p>
+				</div>
+				<div class="intro_link">
+					<a href="https://www.instagram.com/sof.fey/">
+						<img src="{% static 'images/insta.png' %}" alt="">
+						<p class="intro_inst_link">@sof.fey</p>
+					</a>
+				</div>
+			</div>
+			<div class="intro_right">
+				<img src="{% static 'images/Group 3.png' %}" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="section ">
+	<div class="container_fluid">
+		<div class="content_container">
+			<div class="img_container break_point">
+				<img src="{% static 'sonya/field-first.jpg' %}" alt="">
+			</div>
+			<div class="extra break_point">
+				<div class="extra_first ">
+					<img src="{% static 'sonya/2_1.jpg' %}" alt="">
+				</div>
+				<div class="extra_second ">
+					<img src="{% static 'sonya/2.2.jpg' %}" alt="">
+				</div>
+				<div class="extra_third ">
+					<img src="{% static 'sonya/2.3.jpg' %}" alt="">
+				</div>
+			</div>
+			<div class="content_second break_point">
+				<div class="second_img_container_upper">
+					<img src="{% static 'sonya/3_1_1.jpg' %}" alt="">
+				</div>
+				<div class="second_img_container_lower ">
+					<img src="{% static 'sonya/first_div.jpg' %}" alt="">
+				</div>
+			</div>
+			<div class="content_third break_point">
+					<div class="third_img_container_upper ">
+						<img src="{% static 'sonya/mask-division.jpg' %}" alt="">
+					</div>
+					<div class="third_img_container_lower ">
+						<img src="{% static 'sonya/first_div_castle.jpg' %} " alt="">
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<div class="port_block">
+	<div class="container_own">
+		<div class="port_container">
+			<div class="left_port">
+				<div class="left_port_container">
+					<img src="{% static 'sonya/left_port.jpg' %}" alt="">
+				</div>
+			</div>
+			<div class="right_port">
+				<div class="first_right_port">
+					<div class="first_port_container">
+						<img src="{% static 'sonya/right_first.jpg' %}" alt="">
+					</div>
+					<div class="second_port_container">
+						<img src="{% static 'sonya/right_second.jpg' %}" alt="">
+					</div>
+				</div>
+				<div class="second_right_port">
+					<div class="port_text_block">
+						<p class="port_text">
+							Sofia Lobodina is an Ukrainian supermodel, student and active purposeful person.
+							A global brand ambassador for Natural Beauty and internationally recognized as the cutest model in the world.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

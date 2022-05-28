@@ -1,0 +1,118 @@
+.intro{
+	margin: 0px 15px 180px 1px;
+}
+
+.intro_container{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 15px 0 0;
+}
+
+.intro_left{
+	margin: 15px 0 0 60px;
+}
+
+.intro_right{	
+	max-width: 640px;
+	max-height: 603px;}
+
+.intro_right img{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.intro_title{
+	max-width: 440px;
+}
+
+.intro_title p {
+	font-family: 'Fredoka One', cursive;
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.intro_subtitle{}
+
+.intro_subtitle p{
+	margin: 25px 0;
+	font-size: 32px;
+	font-family: 'Fredoka One', cursive;
+	font-weight: bold;
+	max-width: 440px;
+	color: #482F2F;
+}
+
+.intro_link{
+
+}
+
+.intro_link a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.intro_link a p{
+	font-family: 'Patua One', cursive;
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.intro_link a img{
+	max-width: 55px;
+	max-height: 55px;
+	margin-right: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
