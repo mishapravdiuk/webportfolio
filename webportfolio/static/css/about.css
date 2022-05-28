@@ -1,0 +1,36 @@
+.container_about{
+	width: 100%;
+	margin-bottom: 200px;
+}
+
+.about_container{
+	display: flex;
+}
+
+.about_img{
+	width: 50%;
+}
+
+.about_img img{
+	width: 100%;
+}
+
+.about_content{
+	margin: 20px 40px;
+	width: 50%;
+}
+
+.about_title p{
+	font-size: 40px;
+	font-weight: 800;
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 4px;
+}
+
+.about_text p{
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 2px;
+	font-size: 26px;
+}
+
+

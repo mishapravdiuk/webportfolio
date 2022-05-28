@@ -1,11 +1,29 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% load static %}
+
+{% block content %}
+
+<div class="about_block">
+	<div class="container_about">
+		<div class="about_container">
+			<div class="about_img">
+				<img src="{% static 'images/first.gif' %}" alt="">
+			</div>
+			<div class="about_content">
+				<div class="about_title">
+					<p>My Story</p>
+				</div>
+				<div class="about_text">
+					<p>Sofia Lobodina is an Ukrainian supermodel, student and active purposeful person.
+						A global brand ambassador for Natural Beauty and internationally recognized as the cutest model in the world
+						Raised in Sumy and got education in Kyiv National I. K. Karpenko-Kary Theater, Cinema and Television University, one of the oldest institutions of higher education in the art education sphere. Sofia started modeling at the age of eighteen and rapidly became a professional in this sphere .
+						Outside of modeling is known as a magnificent, lovely and kind person. Sofia is crazy about pets, evening walks and reading. She has a huge passion for sport and improving her understanding of  human psychology. Moreover Sofia is a wonderful actress and just a huge hard worker. Sofia has worked with a lot of theaters such as the Private Nyankin Theater and was the biggest star there.You can check out her samples on this website.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
